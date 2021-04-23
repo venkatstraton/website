@@ -4,7 +4,7 @@ pipeline {
 
         stages {
 
-           stage ("Getting Souce Code From Git") {
+           stage ("Getting a Souce Code From Git") {
                steps {
                 git 'https://github.com/venkatstraton/MavenBuild.git'
                 }
